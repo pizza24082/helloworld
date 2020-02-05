@@ -1,0 +1,208 @@
+Started GET "/" for ::1 at 2020-02-05 22:42:47 +0800
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 370)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/han/Documents/Projects/WhatDoYouDo/Blog/Code/helloworld/public/packs
+[Webpacker] Hash: 32e57f147dbdcbbf0c82
+Version: webpack 4.41.5
+Time: 1348ms
+Built at: 2020-02-05 22:42:50
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-bbe9c4a129ab949e0636.js    124 KiB  application  [emitted] [immutable]  application
+js/application-bbe9c4a129ab949e0636.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-bbe9c4a129ab949e0636.js js/application-bbe9c4a129ab949e0636.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 2997ms (Views: 2984.0ms | ActiveRecord: 0.0ms | Allocations: 22193)
+
+
+Started GET "/" for ::1 at 2020-02-05 22:44:52 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 244)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/han/Documents/Projects/WhatDoYouDo/Blog/Code/helloworld/public/packs
+[Webpacker] Hash: 84205d53808c9d0505aa
+Version: webpack 4.41.5
+Time: 3079ms
+Built at: 2020-02-05 22:44:57
+                                                 Asset       Size                   Chunks                         Chunk Names
+                js/application-287c4c96000a14d9baf6.js    648 KiB              application  [emitted] [immutable]  application
+            js/application-287c4c96000a14d9baf6.js.map    760 KiB              application  [emitted] [dev]        application
+    js/stylesheets/application-ca8db8e8c3e9e0c3be2d.js   16.2 KiB  stylesheets/application  [emitted] [immutable]  stylesheets/application
+js/stylesheets/application-ca8db8e8c3e9e0c3be2d.js.map   16.5 KiB  stylesheets/application  [emitted] [dev]        stylesheets/application
+                                         manifest.json  787 bytes                           [emitted]              
+Entrypoint application = js/application-287c4c96000a14d9baf6.js js/application-287c4c96000a14d9baf6.js.map
+Entrypoint stylesheets/application = js/stylesheets/application-ca8db8e8c3e9e0c3be2d.js js/stylesheets/application-ca8db8e8c3e9e0c3be2d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 876 bytes {application} [built]
+[./app/javascript/packs/stylesheets/application.scss] 718 bytes {stylesheets/application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/packs/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/packs/stylesheets/application.scss 523 bytes {stylesheets/application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 8 hidden modules
+
+Completed 200 OK in 4471ms (Views: 4461.4ms | ActiveRecord: 0.0ms | Allocations: 9557)
+
+
+Started GET "/" for ::1 at 2020-02-05 22:45:09 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/han/Documents/Projects/WhatDoYouDo/Blog/Code/helloworld/public/packs
+[Webpacker] Hash: 730835a09cdafd665990
+Version: webpack 4.41.5
+Time: 1002ms
+Built at: 2020-02-05 22:45:11
+                                                 Asset       Size                   Chunks                         Chunk Names
+                js/application-287c4c96000a14d9baf6.js    648 KiB              application  [emitted] [immutable]  application
+            js/application-287c4c96000a14d9baf6.js.map    760 KiB              application  [emitted] [dev]        application
+    js/stylesheets/application-2c1cd741fde387ba7356.js   16.2 KiB  stylesheets/application  [emitted] [immutable]  stylesheets/application
+js/stylesheets/application-2c1cd741fde387ba7356.js.map   16.5 KiB  stylesheets/application  [emitted] [dev]        stylesheets/application
+                                         manifest.json  787 bytes                           [emitted]              
+Entrypoint application = js/application-287c4c96000a14d9baf6.js js/application-287c4c96000a14d9baf6.js.map
+Entrypoint stylesheets/application = js/stylesheets/application-2c1cd741fde387ba7356.js js/stylesheets/application-2c1cd741fde387ba7356.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 876 bytes {application} [built]
+[./app/javascript/packs/stylesheets/application.scss] 718 bytes {stylesheets/application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/packs/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/packs/stylesheets/application.scss 521 bytes {stylesheets/application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 8 hidden modules
+
+Completed 200 OK in 2055ms (Views: 2053.8ms | ActiveRecord: 0.0ms | Allocations: 5215)
+
+
+Started GET "/" for ::1 at 2020-02-05 22:45:58 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 330)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/han/Documents/Projects/WhatDoYouDo/Blog/Code/helloworld/public/packs
+[Webpacker] Hash: 2ce5356773037e9aca8c
+Version: webpack 4.41.5
+Time: 1769ms
+Built at: 2020-02-05 22:46:01
+                                                 Asset       Size                   Chunks                         Chunk Names
+                js/application-287c4c96000a14d9baf6.js    648 KiB              application  [emitted] [immutable]  application
+            js/application-287c4c96000a14d9baf6.js.map    760 KiB              application  [emitted] [dev]        application
+    js/stylesheets/application-cd509a1a0459794d5782.js    679 KiB  stylesheets/application  [emitted] [immutable]  stylesheets/application
+js/stylesheets/application-cd509a1a0459794d5782.js.map    703 KiB  stylesheets/application  [emitted] [dev]        stylesheets/application
+                                         manifest.json  787 bytes                           [emitted]              
+Entrypoint application = js/application-287c4c96000a14d9baf6.js js/application-287c4c96000a14d9baf6.js.map
+Entrypoint stylesheets/application = js/stylesheets/application-cd509a1a0459794d5782.js js/stylesheets/application-cd509a1a0459794d5782.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 876 bytes {application} [built]
+[./app/javascript/packs/stylesheets/application.scss] 718 bytes {stylesheets/application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/packs/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/packs/stylesheets/application.scss 664 KiB {stylesheets/application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 8 hidden modules
+
+Completed 200 OK in 2781ms (Views: 2772.5ms | ActiveRecord: 0.0ms | Allocations: 9617)
+
+
+Started GET "/" for ::1 at 2020-02-05 22:47:49 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 4041)
+
+
+Started GET "/" for ::1 at 2020-02-05 22:49:58 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 474)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/han/Documents/Projects/WhatDoYouDo/Blog/Code/helloworld/public/packs
+[Webpacker] Hash: 62d9dd7682174839c33c
+Version: webpack 4.41.5
+Time: 1502ms
+Built at: 2020-02-05 22:50:01
+                                                 Asset       Size                   Chunks                         Chunk Names
+                js/application-287c4c96000a14d9baf6.js    648 KiB              application  [emitted] [immutable]  application
+            js/application-287c4c96000a14d9baf6.js.map    760 KiB              application  [emitted] [dev]        application
+    js/stylesheets/application-aa92907e2c1883032dcb.js   16.2 KiB  stylesheets/application  [emitted] [immutable]  stylesheets/application
+js/stylesheets/application-aa92907e2c1883032dcb.js.map   16.5 KiB  stylesheets/application  [emitted] [dev]        stylesheets/application
+                                         manifest.json  787 bytes                           [emitted]              
+Entrypoint application = js/application-287c4c96000a14d9baf6.js js/application-287c4c96000a14d9baf6.js.map
+Entrypoint stylesheets/application = js/stylesheets/application-aa92907e2c1883032dcb.js js/stylesheets/application-aa92907e2c1883032dcb.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 876 bytes {application} [built]
+[./app/javascript/packs/stylesheets/application.scss] 718 bytes {stylesheets/application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/packs/stylesheets/application.scss] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/packs/stylesheets/application.scss 523 bytes {stylesheets/application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 8 hidden modules
+
+Completed 200 OK in 2912ms (Views: 2903.4ms | ActiveRecord: 0.0ms | Allocations: 9616)
+
+
+Started GET "/" for ::1 at 2020-02-05 23:27:27 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 207)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 7978)
+
+
+Started GET "/" for ::1 at 2020-02-05 23:28:27 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 207)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/han/Documents/Projects/WhatDoYouDo/Blog/Code/helloworld/public/packs
+[Webpacker] Hash: e5b855ba99c993656e63
+Version: webpack 4.41.5
+Time: 918ms
+Built at: 2020-02-05 23:28:29
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-287c4c96000a14d9baf6.js    648 KiB  application  [emitted] [immutable]  application
+js/application-287c4c96000a14d9baf6.js.map    760 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-287c4c96000a14d9baf6.js js/application-287c4c96000a14d9baf6.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 876 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 6 hidden modules
+
+Completed 200 OK in 2304ms (Views: 2292.5ms | ActiveRecord: 0.0ms | Allocations: 9208)
+
+
+Started GET "/" for ::1 at 2020-02-05 23:29:06 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 452)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 26.7ms | ActiveRecord: 0.0ms | Allocations: 8386)
+
+
+Started GET "/" for ::1 at 2020-02-05 23:29:09 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 5)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4037)
+
+
